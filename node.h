@@ -4,3 +4,7 @@ struct Node {
 	struct Node* next;
 };
 typedef struct Node Node;
+
+
+Node *alloc_node(char data[]);
+void free_node(Node *node);
